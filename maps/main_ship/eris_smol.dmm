@@ -10199,7 +10199,7 @@
 /turf/floor/tiled/white,
 /area/eris/maintenance/medicalward)
 "ayn" = (
-/obj/structure/filingcabinet/chestdrawer{
+/obj/structure/filingcabinet{
 	icon_state = "filingcabinet";
 	name = "Patient Scans"
 	},
@@ -48491,7 +48491,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 6
 	},
-/obj/structure/filingcabinet/chestdrawer{
+/obj/structure/filingcabinet{
 	icon_state = "filingcabinet";
 	name = "The X Files"
 	},
@@ -83085,7 +83085,7 @@
 /obj/machinery/door/firedoor,
 /obj/machinery/door/airlock{
 	name = "Kitchen";
-	req_access = ssssss
+	req_access = list(28)
 	},
 /turf/floor/tiled/white/cargo,
 /area/eris/crew_quarters/kitchen)
